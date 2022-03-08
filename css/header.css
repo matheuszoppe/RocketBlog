@@ -1,8 +1,8 @@
-header{
+header {
   background-color: var(--purple-bg);
 }
 
-.header-menu{
+.header-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -10,22 +10,21 @@ header{
   padding-bottom: 64px;
 }
 
-.header-menu ul{
-  
+.header-menu ul {
   display: flex;
 }
-.header-menu li{
+.header-menu li {
   padding: 0 16px;
   box-sizing: border-box;
 }
 
-.header-menu li a{
+.header-menu li a {
   color: var(--white);
-  font: 400 18px 'Roboto';
+  font: 400 18px "Roboto";
   position: relative;
 }
 
-.header-menu li a:hover{
+.header-menu li a:hover {
   font-weight: 700;
 }
 
@@ -34,7 +33,7 @@ header{
   display: block;
   height: 0px;
   width: 2px;
-  background: var(--green);  
+  background: var(--green);
   position: absolute;
   bottom: 0px;
   left: -6px;
@@ -49,7 +48,7 @@ header{
   align-items: center;
 }
 
-.header-pesquisa input{
+.header-pesquisa input {
   height: 44px;
   width: 230px;
   border-radius: 4px 0 0 4px;
@@ -58,10 +57,13 @@ header{
   background-color: var(--dark-bg);
   color: var(--light-purple);
 }
-.header-pesquisa button{
+.header-pesquisa input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+.header-pesquisa button {
   padding: 8.5px 23px;
   background-color: var(--button-bg);
   border: none;
   border-radius: 0 4px 4px 0;
 }
-

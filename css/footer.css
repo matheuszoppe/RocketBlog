@@ -1,0 +1,50 @@
+.footer-bg {
+  background-color: var(--dark-bg);
+}
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer h1 {
+  font: 700 24px "Poppins";
+  color: var(--button-bg);
+}
+
+.footer ul {
+  display: flex;
+}
+
+.footer li {
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.footer li a {
+  color: var(--white);
+  font: 400 18px "Roboto";
+  position: relative;
+}
+
+.footer li a:hover {
+  font-weight: 700;
+}
+
+.footer li a:after {
+  content: "";
+  display: block;
+  height: 0px;
+  width: 2px;
+  background: var(--green);
+  position: absolute;
+  bottom: 0px;
+  left: -6px;
+}
+
+.footer li a:hover:after {
+  height: 100%;
+}
