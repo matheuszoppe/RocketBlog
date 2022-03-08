@@ -7,9 +7,9 @@
   --green: #4fff4b;
 }
 
-*{
+* {
   margin: 0;
-  padding: 0;  
+  padding: 0;
 }
 
 ul {
@@ -18,7 +18,11 @@ ul {
 }
 
 a {
-  text-decoration: none;  
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--light-purple);
 }
 
 .container {

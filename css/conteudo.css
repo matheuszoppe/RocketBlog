@@ -1,0 +1,36 @@
+.conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 130px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.conteudo img {
+  padding-bottom: 16px;
+}
+
+.conteudo span {
+  display: block;
+  font: 400 16px "Roboto";
+  padding-bottom: 16px;
+}
+
+.conteudo h2 {
+  display: block;
+  font: 700 24px/1.5 "Poppins";
+  color: var(--purple-bg);
+  padding-bottom: 16px;
+}
+
+.conteudo p {
+  display: block;
+  font: 400 16px/1.5 "Roboto";
+}
+
+.conteudo-secundario hr {
+  margin: 24px 0;
+  background-color: #f2e7fa;
+  height: 1px;
+  width: 90%;
+  border: none;
+}
