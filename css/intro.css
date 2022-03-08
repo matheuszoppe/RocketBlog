@@ -1,0 +1,30 @@
+.intro-bg{
+  background-color: var(--purple-bg);
+  border-bottom: 4px solid var(--green);
+}
+
+.intro{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  padding-bottom: 70px;  
+}
+
+.intro-info h1{
+  font: 700 36px/1.5 'Poppins';
+  color: var(--button-bg);
+  padding-bottom: 16px;
+}
+
+.intro-info p{
+  font: 400 18px/1.5 'Roboto';
+  color: var(--white);
+  padding-bottom: 24px;
+}
+
+.intro-info a{
+  font: 700 18px/1.5 'Roboto';
+ color: var(--button-bg);
+  display: flex;
+  align-items: center;
+}
